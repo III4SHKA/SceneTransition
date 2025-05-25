@@ -1,31 +1,30 @@
-# SceneTransition
+# Unity Loading Screen Animation
 
-This Unity project provides a simple **pixelated scene transition effect** using a PNG mask and C# script.
+This project provides a simple and effective loading screen system for Unity.
 
-## ✨ Features
+It includes:
 
-- Pixelated scene transition (like retro game effects)
-- PNG-based mask for controlling transition pattern
-- Easy-to-use script component to trigger transitions
+- **Animated PNG file** — used as the visual for the loading animation.
+- **C# Script** — manages scene transitions and activates the loading animation while the next scene loads.
 
-## 🖼️ Assets Used
+## Features
 
-- **PNG Transition Mask**: A pixelated transparent PNG image that defines how the scene is revealed.
-- **Transition Script**: Custom Unity C# script to manage scene fade in/out using the mask.
+- Seamless integration with Unity projects
+- Scene switching with animated feedback
+- Customizable and lightweight
 
-## 📂 How to Use
+## How to Use
 
-1. Import the PNG mask into your Unity project.
-2. Attach the `SceneTransition` script to a GameObject.
-3. Call `StartTransition()` to begin the pixel fade effect.
+1. Add the PNG animation to your Unity project's UI (e.g., using `Image` in a `Canvas`).
+2. Attach the provided script to a GameObject in your scene.
+3. Configure the target scene name and animation as needed in the script inspector.
 
-You can customize the duration, texture, and direction via the script's public fields in the Inspector.
+## Join the Community
 
-## 🔗 Join the Dev Community
+Have questions or want to share your work? Join our Ukrainian GameDev community on Telegram:
 
-Feel free to ask questions or share your progress here:  
-👉 [GameDevHubUA Telegram](https://t.me/GameDevHubUA)
+[https://t.me/GameDevHubUA](https://t.me/GameDevHubUA)
 
 ---
 
-Made with ❤️ for Unity pixel art fans.
+Happy developing!
